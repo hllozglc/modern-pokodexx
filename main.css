@@ -53,6 +53,7 @@ button {
   border-radius: 2cm;
   width: 400px;
   padding: 10px;
+  transition: transform 0.2s;
 }
 .poke-box img {
   width: 70%;
@@ -65,4 +66,7 @@ button {
 }
 .poke-box p {
   margin: 5px auto;
+}
+.poke-box:hover {
+  transform: scale(1.1);
 }
