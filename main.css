@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;1,300;1,400;1,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: linear-gradient(90deg, #dd3e54, #6be585);
+  font-family: "Poppins", sans-serif;
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+}
+h1 {
+  font-size: 4rem;
+  color: antiquewhite;
+}
+form {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin: 3rem 0;
+}
+input,
+button {
+  font-size: 1.5rem;
+  padding: 15px 25px;
+  border: none;
+  background-color: #fff;
+}
+input {
+  font-weight: bold;
+}
+input:focus {
+  outline: none;
+}
+button {
+  cursor: pointer;
+}
+.poke-container {
+  justify-content: center;
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  padding: 3rem;
+}
+.poke-box {
+  margin: 12px;
+  background-color: #fff;
+  border-radius: 2cm;
+  width: 400px;
+  padding: 10px;
+}
+.poke-box img {
+  width: 70%;
+  margin: 10px 0;
+}
+.poke-box h4 {
+  font-size: 1.5rem;
+  margin: 10px auto;
+  color: green;
+}
+.poke-box p {
+  margin: 5px auto;
+}
